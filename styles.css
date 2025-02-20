@@ -57,13 +57,13 @@ main {
     border-radius: 10px;
 }
 
-main h2 {
+main h2, main h3 {
     font-weight: 500;
     margin-top: 0;
     color: #ff6f91;
 }
 
-main p {
+main p, main ul {
     margin-bottom: 20px;
 }
 
