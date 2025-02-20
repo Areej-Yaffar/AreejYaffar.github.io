@@ -3,44 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplicación Web Personalizada</title>
+    <title>Explorando el Impresionismo</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Bienvenido a mi Aplicación Web</h1>
+            <h1>Explorando el Impresionismo</h1>
             <nav>
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#sobre">Sobre el Impresionismo</a></li>
+                    <li><a href="#obras">Obras Famosas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="login.html">Login</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     
     <main class="container">
-        <section>
-            <h2>Sección Principal</h2>
-            <p>Este es un párrafo de texto en la sección principal.</p>
-            <button id="fetch-data">Obtener Datos</button>
-            <div id="data-container"></div>
+        <section id="sobre">
+            <h2>Sobre el Impresionismo</h2>
+            <p>El impresionismo es un movimiento artístico que se originó en Francia en la segunda mitad del siglo XIX. Se caracteriza por...</p>
+            <img src="images/impresionismo.jpg" alt="Impresionismo" class="responsive">
         </section>
         
-        <section>
-            <h2>Otra Sección</h2>
-            <p>Añade más contenido aquí según sea necesario.</p>
+        <section id="obras">
+            <h2>Obras Famosas</h2>
+            <p>Algunas de las obras más famosas del impresionismo incluyen "Impresión, sol naciente" de Claude Monet y "El almuerzo de los remeros" de Pierre-Auguste Renoir...</p>
+            <ul>
+                <li><a href="#">Impresión, sol naciente - Claude Monet</a></li>
+                <li><a href="#">El almuerzo de los remeros - Pierre-Auguste Renoir</a></li>
+                <li><a href="#">Bailarina de catorce años - Edgar Degas</a></li>
+            </ul>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información, por favor contacta a info@impresionismo.com.</p>
         </section>
     </main>
     
     <footer>
         <div class="container">
-            <p>&copy; 2025 Mi Aplicación Web</p>
+            <p>&copy; 2025 Explorando el Impresionismo</p>
         </div>
     </footer>
     
     <script src="js/scripts.js"></script>
 </body>
 </html>
+
